@@ -4,6 +4,8 @@ import { AppComponent } from './app.component';
 import { QueryBuilderModule } from "angular2-query-builder";
 import {APP_BASE_HREF} from '@angular/common';
 
+//ng build --prod --output-hashing=none --vendorChunk=true
+
 @NgModule({
   declarations: [
     AppComponent
